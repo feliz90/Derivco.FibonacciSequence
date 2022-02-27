@@ -55,11 +55,11 @@ namespace Derivco.FibonacciSequence.Logic
             
             if (timeoutTask.IsCompletedSuccessfully)
             {
-                response.ErrorMessage.Add("Timeout error");
+                response.ErrorMessage = "Timeout error";
             }
             if (checkMemoryTask.IsCompletedSuccessfully)
             {
-                response.ErrorMessage.Add("Amount of memory limit reached");
+                response.ErrorMessage = "Amount of memory limit reached";
             }
             if (generateSequenceTask.IsCompletedSuccessfully)
             {

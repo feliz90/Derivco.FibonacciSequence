@@ -6,6 +6,6 @@ namespace Derivco.FibonacciSequence.API.Models.FibonacciSequence
     public class FibonacciSequenceResponse
     {
         public IEnumerable<string> FibonacciSequence { get; set; }
-        public List<string> ErrorMessage { get; set; }
+        public string ErrorMessage { get; set; }
     }
 }
