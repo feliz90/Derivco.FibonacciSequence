@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Derivco.FibonacciSequence.API", "Derivco.FibonacciSequence.API\Derivco.FibonacciSequence.API.csproj", "{AC5E5E3E-6473-4C2B-ABE4-301CEADDA42B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Derivco.FibonacciSequence.Logic", "Derivco.FibonacciSequence.Logic\Derivco.FibonacciSequence.Logic.csproj", "{7AD96BD0-50B7-4807-9E33-D13750EFFFB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Derivco.FibonacciSequence.Domain", "Derivco.FibonacciSequence.Domain\Derivco.FibonacciSequence.Domain.csproj", "{1C9B1393-92EB-4647-A75F-641931436DF4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{AC5E5E3E-6473-4C2B-ABE4-301CEADDA42B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC5E5E3E-6473-4C2B-ABE4-301CEADDA42B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC5E5E3E-6473-4C2B-ABE4-301CEADDA42B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AD96BD0-50B7-4807-9E33-D13750EFFFB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AD96BD0-50B7-4807-9E33-D13750EFFFB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AD96BD0-50B7-4807-9E33-D13750EFFFB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AD96BD0-50B7-4807-9E33-D13750EFFFB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C9B1393-92EB-4647-A75F-641931436DF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C9B1393-92EB-4647-A75F-641931436DF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C9B1393-92EB-4647-A75F-641931436DF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C9B1393-92EB-4647-A75F-641931436DF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
