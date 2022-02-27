@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Derivco.FibonacciSequence.L
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Derivco.FibonacciSequence.Domain", "Derivco.FibonacciSequence.Domain\Derivco.FibonacciSequence.Domain.csproj", "{1C9B1393-92EB-4647-A75F-641931436DF4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Derivco.FibonacciSequence.UnitTest", "Derivco.FibonacciSequence.UnitTest\Derivco.FibonacciSequence.UnitTest.csproj", "{01FE8929-0535-488B-A29B-9CAF35B6BEDC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{1C9B1393-92EB-4647-A75F-641931436DF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C9B1393-92EB-4647-A75F-641931436DF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C9B1393-92EB-4647-A75F-641931436DF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01FE8929-0535-488B-A29B-9CAF35B6BEDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01FE8929-0535-488B-A29B-9CAF35B6BEDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01FE8929-0535-488B-A29B-9CAF35B6BEDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01FE8929-0535-488B-A29B-9CAF35B6BEDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -5,6 +5,6 @@ namespace Derivco.FibonacciSequence.Logic.MemoryService
 {
     public interface IMemoryService
     {
-        void CheckMemoryUsage(long amountOfMemory, CancellationToken token);
+        Task CheckMemoryUsage(long amountOfMemory, CancellationToken token);
     }
 }

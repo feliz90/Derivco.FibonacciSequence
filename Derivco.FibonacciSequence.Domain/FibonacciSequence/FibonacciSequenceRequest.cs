@@ -23,6 +23,7 @@ namespace Derivco.FibonacciSequence.API.Models.FibonacciSequence
         /// <summary>
         /// indicates whether it can use cache or not
         /// </summary>
+        /// <example>true</example>
         public bool UseCache { get; set; }
         
         /// <summary>

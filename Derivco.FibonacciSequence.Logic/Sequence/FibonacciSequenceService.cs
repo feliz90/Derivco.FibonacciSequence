@@ -53,13 +53,13 @@ namespace Derivco.FibonacciSequence.Logic
                 
             }
             
-            if (timeoutTask.IsCompletedSuccessfully)
-            {
-                response.ErrorMessage = "Timeout error";
-            }
             if (checkMemoryTask.IsCompletedSuccessfully)
             {
                 response.ErrorMessage = "Amount of memory limit reached";
+            }
+            if (timeoutTask.IsCompletedSuccessfully)
+            {
+                response.ErrorMessage = "Timeout error";
             }
             if (generateSequenceTask.IsCompletedSuccessfully)
             {
@@ -101,7 +101,7 @@ namespace Derivco.FibonacciSequence.Logic
             return fibonacciSequence;
         }
 
-        private async Task<string> GetFibonacciNumber(long index, bool useCache, CancellationToken token)
+        private async Task<string> GetFibonacciNumber(uint index, bool useCache, CancellationToken token)
         {
             if (useCache)
             {
@@ -116,7 +116,7 @@ namespace Derivco.FibonacciSequence.Logic
             return fibonacciNumber;
         }
 
-        private static BigInteger CalculateFibonacciNumber(long index, CancellationToken token)
+        private static BigInteger CalculateFibonacciNumber(uint index, CancellationToken token)
         {
             if (index <= 1)
             {
